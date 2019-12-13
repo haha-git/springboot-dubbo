@@ -1,7 +1,7 @@
 package com.sy.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.sy.api.service.DemoService;
+import com.sy.service.DemoService;
 
 import java.text.MessageFormat;
 

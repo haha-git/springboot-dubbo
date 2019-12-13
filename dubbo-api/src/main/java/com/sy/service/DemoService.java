@@ -1,4 +1,4 @@
-package com.sy.api.service;
+package com.sy.service;
 
 public interface DemoService {
     String sayName(String name);

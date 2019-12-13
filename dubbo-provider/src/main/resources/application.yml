@@ -8,6 +8,13 @@ test:
 spring:
   application:
     name: provider
+  datasource:
+    url: jdbc:mysql://192.168.50.50/zego_recharge
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+
 dubbo:
   application:
     name: provider
@@ -16,3 +23,5 @@ dubbo:
   protocol:
     name: dubbo
     port: 20881
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml

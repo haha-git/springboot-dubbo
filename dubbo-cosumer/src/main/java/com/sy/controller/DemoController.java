@@ -1,7 +1,7 @@
 package com.sy.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.sy.api.service.DemoService;
+import com.sy.service.DemoService;
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/dubbo")
+@RequestMapping("/demo")
 public class DemoController {
 
     private static Logger logger = Logger.getLogger(DemoController.class);
